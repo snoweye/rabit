@@ -102,7 +102,7 @@ inline void Reducer(const void *src_, void *dst_, int len, const MPI::Datatype &
 }
 }  // namespace op
 
-// initialize the rabit engine
+// intialize the rabit engine
 inline bool Init(int argc, char *argv[]) {
   return engine::Init(argc, argv);
 }
